@@ -7,5 +7,5 @@ The code base has divided all the major components of the frameworks into smalle
 **DO NOT USE THIS SOFTWARE TO SECURE ANY 
 REAL-WORLD DATA OR COMPUTATION!**
 
-This software is a proof-of-concept meant for 
+This software is a proof-of-concept. meant for 
 testing purposes only.
