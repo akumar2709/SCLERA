@@ -1,3 +1,4 @@
+We used Graphene-SGX library(https://github.com/gramineproject/graphene.git) to implement our sgx apilcations
 This folder provides the necessary manifest to test a image labelling application.
 A demo application can be found in the tensorflow library(https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/label_image), 
 follow their given documentation to compile the image labelling application using Bazel.
