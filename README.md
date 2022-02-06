@@ -1,6 +1,6 @@
 # SCLERA
 This is the code base for "SCLERA: A Framework for Privacy-PreservingMLaaS at the Pervasive Edge". 
-The code base has divided all the major components of the frameworks into smaller independent scripts, so that users can use or combine different components of the framework as they deem fit.
+We have divided all the major components of the frameworks into smaller independent scripts, so that users can use or combine different components of the framework as they deem fit.
 
 ## Disclaimer
 
