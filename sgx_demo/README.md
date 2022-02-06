@@ -24,4 +24,5 @@ Generate a token using the command -
 ````
 graphene-sgx-get-token \
 --output label_image_2.token --sig label_image_2.sig
+
 ```
