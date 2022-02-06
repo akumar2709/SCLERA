@@ -1,3 +1,4 @@
+#splitting vgg16 as an example of how to split a sequential model
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
