@@ -24,5 +24,9 @@ Generate a token using the command -
 ```
 graphene-sgx-get-token \
 --output label_image_2.token --sig label_image_2.sig
+```
+To test the model and image you wrote in the manifest template for the image labelling demo, use a command like -
 
+```
+graphene-sgx ./label_image_2 --tflite_model resnet50_16.tflite --labels labels.txt --image image.bmp
 ```
