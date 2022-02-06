@@ -1,3 +1,4 @@
+#using resnet50 as an example of how to split a non-sequential model
 import tensorflow as tf
 from tensorflow.keras.applications.resnet50 import ResNet50
 from tensorflow.keras.preprocessing import image
