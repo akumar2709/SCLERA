@@ -13,15 +13,15 @@ label_image_2.manifest.template > label_image_2.manifest
 
 Then Generate the sgx manifest by usign the command - 
 
-...
+```
 sudo graphene-sgx-sign \
 --key ../../Pal/src/host/Linux-SGX/signer/enclave-key.pem \
 --output label_image_2.manifest.sgx \
 --manifest label_image_2.manifest
-...
+```
 
 Generate a token using the command - 
-...
+````
 graphene-sgx-get-token \
 --output label_image_2.token --sig label_image_2.sig
-...
+```
