@@ -9,6 +9,7 @@ graphene-manifest \
 -Darch_libdir=/lib/x86_64-linux-gnu \
 label_image_2.manifest.template > label_image_2.manifest
 ```
+```pip install tensorflow```
 
 Then Generate the sgx manifest by usign the command - 
 
