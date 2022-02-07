@@ -8,7 +8,7 @@ Generate the manifest using the manifest template by using the following command
 graphene-manifest \
 -Dlog_level=error \
 -Darch_libdir=/lib/x86_64-linux-gnu \
-label_image_2.manifest.template > label_image_2.manifest
+label_image.manifest.template > label_image.manifest
 ```
 
 
@@ -17,17 +17,17 @@ Then Generate the sgx manifest by usign the command -
 ```
 sudo graphene-sgx-sign \
 --key ../../Pal/src/host/Linux-SGX/signer/enclave-key.pem \
---output label_image_2.manifest.sgx \
---manifest label_image_2.manifest
+--output label_image.manifest.sgx \
+--manifest label_image.manifest
 ```
 
 Generate a token using the command - 
 ```
 graphene-sgx-get-token \
---output label_image_2.token --sig label_image_2.sig
+--output label_image.token --sig label_image.sig
 ```
 To test the model and image you wrote in the manifest template for the image labelling demo, use a command like -
 
 ```
-graphene-sgx ./label_image_2 --tflite_model resnet50_16.tflite --labels labels.txt --image image.bmp
+graphene-sgx ./label_image --tflite_model resnet50_16.tflite --labels labels.txt --image image.bmp
 ```
