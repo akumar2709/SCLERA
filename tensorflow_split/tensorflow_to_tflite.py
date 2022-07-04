@@ -28,4 +28,7 @@ converter.target_spec.supported_ops = [
 ]
 converter.target_spec.supported_types = [tf.float32]
 tflite_model = converter.convert()
-tflite_quant_model = converter.convert()
+
+# Save the model.
+with open('tflite_model.tflite', 'wb') as f:
+  f.write(tflite_model)
