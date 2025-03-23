@@ -3,7 +3,7 @@ This is the code base for a minimal implementationf of "SCLERA: A Framework for 
 We have divided all the major components of the frameworks into smaller independent scripts, so that users can use or combine different components of the framework as they deem fit.  
 
 ## Some Notes - 
-Most of the libraries that have been used have been updated significantly since the work came out and the versions used in this demo might not be supported (such as graphene). There were certain components of this work which were not released due to intend of releasing it later with an extension of this work, which simply did not take place due to lack of intrest in the direction. While we wont be updating or maintaining this repository, it contains all the code and information regarding the libraries that may be needed to reproduce and verify the results in the paper. Let me know if you need anything and it is not present in the directory.
+Most of the libraries that have been used have been updated significantly since the work came out and the versions used in this demo might not be supported (such as graphene). There were certain components of this work which were not released due to intend of releasing it later as an extension of this work, which simply did not take place due to lack of intrest in the direction. While we wont be updating or maintaining this repository, it contains all the code and information regarding the libraries that may be needed to reproduce and verify the results in the paper. Let me know if you need anything and it is not present in the directory.
 
 # Bibtex Citation
 ```
